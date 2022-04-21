@@ -20,7 +20,13 @@ public class Person {
         this.salary = salary;
         this.age = age;
     }
-    public String toString (){
-        return "Фамилия" + surname + "Имя" + name + "Отчество" + middlename + "Должность" + position + "Email" + email + "Телефон" + phone +"Зарплата" + salary + "Возраст" + age;
+    public void ShowPerson (){
+        System.out.println("Фамилия " + surname + " Имя " + name + " Отчество " + middlename + " Должность " + position );
+        System.out.println(" Email " + email + " Телефон " + phone +" Зарплата " + salary + " Возраст " + age);
+
+    }
+
+    public int getAge() {
+        return age;
     }
 }
