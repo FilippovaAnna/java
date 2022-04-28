@@ -5,6 +5,7 @@ public class Animals {
     private String color;
     private int age;
 
+
     public Animals(String name , String color , int age){
         this.name = name;
         this.color = color;
