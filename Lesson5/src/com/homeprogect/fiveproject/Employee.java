@@ -2,6 +2,8 @@ package com.homeprogect.fiveproject;
 class  Employee {
         public static void main(String[] args) {
 
+                
+
                 Person[] persArray = new Person[5]; // Вначале объявляем массив объектов
 
                 persArray[0] = new Person("Сидоров", "Иван", "Петрович", "Директор",
