@@ -27,4 +27,9 @@ public class UserInterfaceView {
             }
         }
     }
+
+    public static void main(String[] args) {
+        UserInterfaceView view = new UserInterfaceView();
+        view.runInterface();
+    }
 }
